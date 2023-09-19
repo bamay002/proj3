@@ -1,3 +1,5 @@
+import '../css/NavBar.css'
+
 function NavBar(){
     return (
         <header>
