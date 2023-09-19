@@ -1,24 +1,27 @@
 main {
-  padding: 10px;
+  padding: 2%;
   max-width: 500px;
   margin: 0 auto;
 }
 
 img {
   max-width: 100%;
+  padding-top: 12%;
 }
 
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 header a {
   text-decoration: none;
 }
 
-header a.logo{
+.logo{
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 header nav{
@@ -27,9 +30,13 @@ header nav{
 }
 
 .post {
-  display: flex;
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 20px;
 }
 
-.post img {
-  width: 50%;
+.text h2 {
+  margin: 0;
+  font-size: 1.7rem;
+  padding-top: 12%;
 }
